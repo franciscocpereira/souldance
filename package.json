@@ -1,0 +1,24 @@
+{
+  "name": "souldance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscocpereira/souldance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscocpereira/souldance/issues"
+  },
+  "homepage": "https://github.com/franciscocpereira/souldance#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
