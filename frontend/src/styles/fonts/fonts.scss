@@ -1,56 +1,196 @@
+/* Basier Circle */
+
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-ExtraBold.woff2') format('woff2');
-	font-weight: 800;
-	font-style: normal;
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-bolditalic-webfont.eot');
+	src: url('./Basier/basiercircle-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-bolditalic-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-bolditalic-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-bolditalic-webfont.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+
 }
 
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-Bold.woff2') format('woff2');
-	font-weight: 700;
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-bold-webfont.eot');
+	src: url('./Basier/basiercircle-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-bold-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-bold-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-bold-webfont.ttf') format('truetype');
+	font-weight: 900;
 	font-style: normal;
+
 }
 
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-SemiBold.woff2') format('woff2');
-	font-weight: 600;
-	font-style: normal;
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-mediumitalic-webfont.eot');
+	src: url('./Basier/basiercircle-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-mediumitalic-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-mediumitalic-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-mediumitalic-webfont.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+
 }
 
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-Medium.woff2') format('woff2');
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-medium-webfont.eot');
+	src: url('./Basier/basiercircle-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-medium-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-medium-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-medium-webfont.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
+
 }
 
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-Regular.woff2') format('woff2');
-	font-weight: 400;
-	font-style: normal;
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-regularitalic-webfont.eot');
+	src: url('./Basier/basiercircle-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-regularitalic-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-regularitalic-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-regularitalic-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+
 }
 
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-Light.woff2') format('woff2');
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-regular-webfont.eot');
+	src: url('./Basier/basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-regular-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-regular-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-regular-webfont.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
+
 }
 
 @font-face {
-	font-family: 'Manrope';
-	src:
-		url('./Manrope/Manrope-ExtraLight.woff2') format('woff2');
-	font-weight: 200;
-	font-style: normal;
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-semibolditalic-webfont.eot');
+	src: url('./Basier/basiercircle-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-semibolditalic-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-semibolditalic-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-semibolditalic-webfont.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+
 }
 
+@font-face {
+	font-family: 'Basier Circle';
+	src: url('./Basier/basiercircle-semibold-webfont.eot');
+	src: url('./Basier/basiercircle-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiercircle-semibold-webfont.woff2') format('woff2'),
+		url('./Basier/basiercircle-semibold-webfont.woff') format('woff'),
+		url('./Basier/basiercircle-semibold-webfont.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+
+}
+
+
+/* Basier Square */
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('./Basier/basiersquare-bolditalic-webfont.eot');
+	src: url('./Basier/basiersquare-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiersquare-bolditalic-webfont.woff2') format('woff2'),
+		url('./Basier/basiersquare-bolditalic-webfont.woff') format('woff'),
+		url('./Basier/basiersquare-bolditalic-webfont.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('./Basier/basiersquare-bold-webfont.eot');
+	src: url('./Basier/basiersquare-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./Basier/basiersquare-bold-webfont.woff2') format('woff2'),
+		url('./Basier/basiersquare-bold-webfont.woff') format('woff'),
+		url('./Basier/basiersquare-bold-webfont.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('./Basier/basiersquare-mediumitalic-webfont.eot');
+	src: url('./Basier/basiersquare-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/basiersquare-mediumitalic-webfont.woff2') format('woff2'),
+		url('/assets/fonts/basiersquare-mediumitalic-webfont.woff') format('woff'),
+		url('/assets/fonts/basiersquare-mediumitalic-webfont.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('/assets/fonts/basiersquare-medium-webfont.eot');
+	src: url('/assets/fonts/basiersquare-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/basiersquare-medium-webfont.woff2') format('woff2'),
+		url('/assets/fonts/basiersquare-medium-webfont.woff') format('woff'),
+		url('/assets/fonts/basiersquare-medium-webfont.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('/assets/fonts/basiersquare-regularitalic-webfont.eot');
+	src: url('/assets/fonts/basiersquare-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/basiersquare-regularitalic-webfont.woff2') format('woff2'),
+		url('/assets/fonts/basiersquare-regularitalic-webfont.woff') format('woff'),
+		url('/assets/fonts/basiersquare-regularitalic-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('/assets/fonts/basiersquare-regular-webfont.eot');
+	src: url('/assets/fonts/basiersquare-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/basiersquare-regular-webfont.woff2') format('woff2'),
+		url('/assets/fonts/basiersquare-regular-webfont.woff') format('woff'),
+		url('/assets/fonts/basiersquare-regular-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('/assets/fonts/basiersquare-semibolditalic-webfont.eot');
+	src: url('/assets/fonts/basiersquare-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/basiersquare-semibolditalic-webfont.woff2') format('woff2'),
+		url('/assets/fonts/basiersquare-semibolditalic-webfont.woff') format('woff'),
+		url('/assets/fonts/basiersquare-semibolditalic-webfont.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'Basier Square';
+	src: url('/assets/fonts/basiersquare-semibold-webfont.eot');
+	src: url('/assets/fonts/basiersquare-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/basiersquare-semibold-webfont.woff2') format('woff2'),
+		url('/assets/fonts/basiersquare-semibold-webfont.woff') format('woff'),
+		url('/assets/fonts/basiersquare-semibold-webfont.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+
+}
