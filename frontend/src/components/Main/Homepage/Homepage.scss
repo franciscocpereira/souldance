@@ -1,7 +1,7 @@
 //IMPORTS
 
 // @import 'header-navigation.scss';
-@import './header-hero.scss';
+@import './HeaderHero.scss';
 @import '../../../styles/styles.scss';
 
 
@@ -15,7 +15,7 @@ body {
 
 .modalidades,
 .modalidades-mobile {
-    background: $light-pink;
+    background-color: $light-pink;
 }
 
 .modalidades {

@@ -130,10 +130,6 @@ main {
 // 0
 @media screen and (min-width: 0px) {
 
-    #logo-horizontal {
-        display: none;
-    }
-
     .bottom-social {
         display: none;
     }
@@ -145,14 +141,6 @@ main {
 
 // Large mobiles and Tablets
 @media screen and (min-width: 768px) {
-
-    #logo-mobile {
-        display: none;
-    }
-
-    #logo-horizontal {
-        display: block;
-    }
 
     #hero-text-mobile {
         display: none;
