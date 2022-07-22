@@ -36,13 +36,14 @@ header {
                 padding: 15px 20px 15px 20px;
                 cursor: pointer !important;
                 pointer-events: auto;
+                transition: opacity .2s ease-out;
 
                 &:hover {
                     opacity: 0.6;
-                    transition: opacity .2s ease-out;
-                    -moz-transition: opacity .2s ease-out;
-                    -webkit-transition: opacity .2s ease-out;
-                    -o-transition: opacity .2s ease-out;
+                    // transition: opacity .2s ease-out;
+                    // -moz-transition: opacity .2s ease-out;
+                    // -webkit-transition: opacity .2s ease-out;
+                    // -o-transition: opacity .2s ease-out;
                 }
 
                 &.button-negative {

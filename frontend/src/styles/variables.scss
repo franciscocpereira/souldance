@@ -82,7 +82,7 @@ $pop-dance: #55ADFF;
 
 //Button @include button-general-purpose($purple, $purple, $purple, $purple);
 
-@mixin button-general-purpose ($button-background-color, $button-border, $hover-border-color, $hover-color) {
+@mixin button-general-purpose ($button-background-color, $button-border, $hover-border-color, $hover-color, $drop-shadow) {
 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -90,7 +90,7 @@ $pop-dance: #55ADFF;
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    filter: $drop-shadow;
     background: $button-background-color;
     border: 2px solid $button-border;
     border-radius: 5px;
@@ -101,22 +101,22 @@ $pop-dance: #55ADFF;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
 
     &:hover {
         font-weight: 500;
         background: transparent;
         border: 2px solid $hover-border-color;
         color: $button-background-color;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
-        transition: opacity .2s ease-out;
-        -moz-transition: opacity .2s ease-out;
-        -webkit-transition: opacity .2s ease-out;
-        -o-transition: opacity .2s ease-out;
+        filter: none;
     }
 
 }
 
-@mixin button-general-purpose-small ($button-background-color, $button-border, $hover-border-color, $hover-color) {
+@mixin button-general-purpose-small ($button-background-color, $button-border, $hover-border-color, $hover-color, $drop-shadow) {
 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -124,7 +124,7 @@ $pop-dance: #55ADFF;
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    filter: $drop-shadow;
     background: $button-background-color;
     border: 2px solid $button-border;
     border-radius: 7px;
@@ -135,21 +135,21 @@ $pop-dance: #55ADFF;
     color: white;
     padding: 10px 25px;
     cursor: pointer;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
 
     &:hover {
         background: transparent;
         border: 2px solid $hover-border-color;
         color: $button-background-color;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
-        transition: opacity .2s ease-out;
-        -moz-transition: opacity .2s ease-out;
-        -webkit-transition: opacity .2s ease-out;
-        -o-transition: opacity .2s ease-out;
+        filter: none;
     }
 
 }
 
-@mixin button-general-purpose-small-disabled ($button-background-color, $button-border, $hover-border-color, $hover-color) {
+@mixin button-general-purpose-small-disabled ($button-background-color, $button-border, $hover-border-color, $hover-color, $drop-shadow) {
 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -157,7 +157,7 @@ $pop-dance: #55ADFF;
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    filter: $drop-shadow;
     background: $button-background-color;
     border: 2px solid $button-border;
     border-radius: 7px;
@@ -169,17 +169,17 @@ $pop-dance: #55ADFF;
     padding: 10px 25px;
     cursor: pointer;
     opacity: 0.2;
+    transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
 
     &:hover {
         opacity: 1;
         background: transparent;
         border: 2px solid $hover-border-color;
         color: $button-background-color;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
-        transition: opacity .2s ease-out;
-        -moz-transition: opacity .2s ease-out;
-        -webkit-transition: opacity .2s ease-out;
-        -o-transition: opacity .2s ease-out;
+        filter: none;
     }
 
 }

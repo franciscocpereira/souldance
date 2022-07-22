@@ -3,6 +3,8 @@
 // @import 'header-navigation.scss';
 // @import 'header-hero.scss';
 @import "./variables.scss";
+@import "./fonts/fonts.scss";
+@import "./animations.scss";
 
 
 video::-webkit-media-controls {
@@ -21,7 +23,6 @@ video::-webkit-media-controls {
 }
 
 .App {
-  font-family: "Manrope";
   background-color: black;
   max-width: 100vw;
   overflow-x: hidden;
@@ -146,19 +147,19 @@ img {
 // BUTTONS
 
 .button {
-  @include button-general-purpose($pink, $pink, $pink, $pink);
+  @include button-general-purpose($pink, $pink, $pink, $pink, none);
 }
 
 .button-small {
-  @include button-general-purpose-small($pink, $pink, $pink, $pink);
+  @include button-general-purpose-small($pink, $pink, $pink, $pink, none);
 }
 
 .button-small-disabled {
-  @include button-general-purpose-small-disabled($pink, $pink, $pink, $pink);
+  @include button-general-purpose-small-disabled($pink, $pink, $pink, $pink, none);
 }
 
 .button-negative {
-  @include button-general-purpose(none, $pink, $pink, $pink);
+  @include button-general-purpose(none, $pink, $pink, $pink, none);
 
   &:hover {
     background-color: $pink;
@@ -167,7 +168,7 @@ img {
 }
 
 .button-purple {
-  @include button-general-purpose($purple, $purple, $purple, $purple);
+  @include button-general-purpose($purple, $purple, $purple, $purple, none);
 
 }
 
@@ -636,7 +637,7 @@ input[type='radio'] {
     text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-start !important;
   }
 
   .section-link {
